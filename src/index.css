@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-primary: #2c3e50;
+  --color-secondary: #f4c542;
+  --color-accent: #16a085;
+
+  --color-dark-primary: #e0e0e0;
+  --color-dark-bg: #121212;
+  --color-dark-accent: #1abc9c;
+  --color-dark-secondary: #ffd700;
+
+  --radius-small: 8px;
+  --radius-medium: 16px;
+
+  /* Large Screen */
+  --text-h1-large: 48px;
+  --text-h2-large: 36px;
+  --text-h3-large: 28px;
+  --text-sub-title-large: 22px;
+  --text-body-text-large: 20px;
+  --text-detail-large: 16px;
+
+  /* Medium Screen */
+  --text-h1-medium: 36px;
+  --text-h2-medium: 28px;
+  --text-h3-medium: 24px;
+  --text-sub-title-medium: 20px;
+  --text-body-text-medium: 18px;
+  --text-detail-medium: 14px;
+
+  /* Small Screen */
+  --text-h1-small: 30px;
+  --text-h2-small: 24px;
+  --text-h3-small: 20px;
+  --text-sub-title-small: 18px;
+  --text-body-text-small: 16px;
+  --text-detail-small: 12px;
+
+  /* Shadow */
+  --shadow-small: 0px 0px 4px 0px rgba(0, 0, 0, 0.25);
+}

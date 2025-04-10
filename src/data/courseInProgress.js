@@ -1,0 +1,60 @@
+const coursesInProgress = [
+  {
+    name: "Web design",
+    lessons: 12,
+    start: "March 27",
+    rate: 4.8,
+    level: "Elementary",
+    icon: "https://cdn.pixabay.com/photo/2018/09/05/10/12/domain-3655918_1280.png",
+  },
+  {
+    name: "Mobile Development",
+    lessons: 10,
+    start: "June 17",
+    rate: 4.9,
+    level: "Intermediate",
+    icon: "https://cdn.pixabay.com/photo/2013/07/13/12/46/iphone-160307_1280.png",
+  },
+  {
+    name: "UI/UX design",
+    lessons: 7,
+    start: "August 05",
+    rate: 4.8,
+    level: "Elementary",
+    icon: "https://cdn.pixabay.com/photo/2022/05/27/11/18/ux-design-7224948_1280.png",
+  },
+  {
+    name: "Networking",
+    lessons: 10,
+    start: "October 12",
+    rate: 4.6,
+    level: "Intermediate",
+    icon: "https://cdn.pixabay.com/photo/2021/02/08/10/46/world-5994330_1280.png",
+  },
+  {
+    name: "Cloud Computing",
+    lessons: 10,
+    start: "October 30",
+    rate: 4.5,
+    level: "Elementary",
+    icon: "https://media.istockphoto.com/id/470267100/vector/cloud-symbol.jpg?s=2048x2048&w=is&k=20&c=KcT6uEQmSVdRkRZl_zROHC0X0wjMCKsXU0bG5XVjcuU=",
+  },
+  {
+    name: "Cyber Security",
+    lessons: 12,
+    start: "December 27",
+    rate: 4.8,
+    level: "Elementary",
+    icon: "https://cdn.pixabay.com/photo/2014/04/03/00/32/padlock-308589_1280.png",
+  },
+  {
+    name: "Database System",
+    lessons: 15,
+    start: "December 28",
+    rate: 4.7,
+    level: "Intermediate",
+    icon: "https://media.istockphoto.com/id/1783729778/vector/database-and-server-icon-concept.jpg?s=2048x2048&w=is&k=20&c=HUGnquJm4MFVfw-QMlv-AvdRtG8srB0tCiikn5ldXnc=",
+  },
+];
+
+export default coursesInProgress;
